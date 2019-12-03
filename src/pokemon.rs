@@ -53,4 +53,8 @@ impl Pokemon {
             }
         }
     }
+
+    pub fn get_name(&self) -> &String {
+        return &self.name;
+    }
 }
